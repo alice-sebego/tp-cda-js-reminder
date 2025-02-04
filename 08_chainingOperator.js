@@ -16,6 +16,17 @@
  * 
  */
 
-const getGroupName = (obj) => {}
+const getGroupName = (user) => user.group?.name ?? "pas de rôle trouvé";
+// console.log(getGroupName({
+//   name: "Bruno",
+//   group: {
+//     name: "admin"
+//   }}));
+
+// console.log(getGroupName({
+//   name: "Gérard",
+//   group: {
+//     name: null
+//   }}));
 
 module.exports = {getGroupName};
