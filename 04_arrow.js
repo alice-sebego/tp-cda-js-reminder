@@ -22,7 +22,7 @@ let arrow1 = (arg) => {
 
 let arrow2 = (arg) => arg + 1;
 
-console.log(arrow1(6));
-console.log(arrow2(7));
+// console.log(arrow1(6));
+// console.log(arrow2(7));
 
 module.exports = {arrow1, arrow2};
